@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THIRDPAGE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(Media/DSC03099.jpg); /* Фон в виде картинки */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 20px;
+            color: #ffffff; /* Белый цвет текста для контраста с фоном */
+        }
+
+        ol {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        img:hover {
+            transform: scale(1.2);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            margin-bottom: 20px;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to the JOPA</h1>
+    <ol>
+        <li>
+            <img src="https://picsum.photos/200" alt="Skameika">
+        </li>
+        <li>
+            <img src="https://picsum.photos/seed/picsum/200/300" alt="Static">
+        </li>
+        <li>
+            <img src="https://picsum.photos/id/237/200/300" alt="Specific">
+        </li>
+    </ol>
+</body>
+
+</html>
